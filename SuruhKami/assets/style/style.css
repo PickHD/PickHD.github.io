@@ -7,12 +7,12 @@ html {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Josefin Sans", sans-serif;
-  margin: 0;
-  padding: 0;
 }
 
 main {
@@ -23,7 +23,9 @@ main {
   padding-left: 20px;
   margin-top: -20px;
 } */
-
+/* .icon {
+  display: none;
+} */
 nav a {
   font-size: 18px;
   font-weight: 400;
@@ -41,7 +43,7 @@ nav li {
 }
 nav {
   overflow: hidden;
-  padding: 25px;
+  padding: 15px;
   background-color: #67b2e1ff;
   position: sticky;
   top: 0;
@@ -151,9 +153,9 @@ h2 {
 .card {
   flex-basis: 100%;
   border-radius: 50px;
-  padding: 30px;
+  padding: 40px;
   height: 100vh;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 #myTopBtn {
@@ -182,11 +184,6 @@ h2 {
   nav {
     display: flex;
   }
-  nav li {
-    display: inline;
-    list-style-type: none;
-    margin-right: 5px;
-  }
   h2 {
     font-size: 25px;
   }
@@ -198,12 +195,11 @@ h2 {
   }
   .flex-row {
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 30vh;
   }
   .box {
     width: 100%;
-    margin: 0 auto;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
   }
   .jumbotron {
@@ -217,14 +213,22 @@ h2 {
   .header-img,
   .right-header {
     width: 100%;
-    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
     text-align: center;
     padding: 0;
   }
-  .special_btn {
-    font-size: 16px;
+  .zoomImg {
     width: 100%;
-    height: 100%;
+  }
+  .special_btn {
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+  }
+  .topBtn {
+    width: 30px;
   }
 }
 
