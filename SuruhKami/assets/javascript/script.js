@@ -1,6 +1,7 @@
 AOS.init();
+
 // Tangkap button dengan id myTopBtn
-myTopButton = document.querySelector("#myTopBtn");
+let myTopButton = document.querySelector("#myTopBtn");
 
 // ketika user me-scroll halaman sedikit kebawah
 window.onscroll = () => {
