@@ -18,8 +18,6 @@ body {
 main {
   padding: 20px;
   overflow: auto;
-  display: flex;
-  flex-direction: column;
 }
 /* aside {
   padding-left: 20px;
@@ -42,11 +40,16 @@ nav li {
   margin-right: 20px;
 }
 nav {
+  overflow: hidden;
   padding: 25px;
   background-color: #67b2e1ff;
   position: sticky;
-  display: block;
   top: 0;
+  left: 0;
+  z-index: 99;
+}
+header {
+  display: inline;
 }
 .left-nav {
   float: left;
@@ -65,9 +68,6 @@ nav {
   text-align: right;
   color: #ffffff;
 }
-header {
-  display: inline;
-}
 
 .left-header {
   flex-grow: 1;
@@ -76,8 +76,9 @@ header {
 .right-header {
   flex-grow: 1;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 26px;
 }
+
 .header-img {
   width: 500px;
 }
@@ -152,6 +153,7 @@ h2 {
   border-radius: 50px;
   padding: 30px;
   height: 100vh;
+  margin-top: 20px;
 }
 
 #myTopBtn {
