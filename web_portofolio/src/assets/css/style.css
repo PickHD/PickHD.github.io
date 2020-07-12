@@ -1,0 +1,181 @@
+/* import variable */
+@import url("./partials/variable.css");
+/* global styling*/
+@import url("./partials/_global.css");
+
+/* START NAV AREA */
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0.2rem 0.5rem;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 20rem;
+}
+.header_area .main-menu .nav-item .nav-link {
+  font: normal 500 15px/2px var(--nova-font);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+.header_area .main-menu .navbar-nav .active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* END NAV AREA */
+
+/* START BANNER AREA */
+.site-main .site-banner .site-title h3 {
+  padding-top: 10%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+}
+
+.site-main .site-banner .site-title > img {
+  padding: 5rem 0;
+  width: 90rem;
+}
+
+/* END BANNER AREA */
+
+/* START ABOUT AREA */
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+.site-main .about-area .about-title h2 > span {
+  padding-top: 10%;
+  display: block;
+  font: normal bold 49px/60px var(--nova-font);
+  letter-spacing: 21px;
+}
+.site-main .about-area .about-title .paragraph > p {
+  padding: 0.4rem 0;
+}
+/* END ABOUT AREA */
+
+/* START SKILLS AREA */
+
+.site-main .skills-area {
+  padding: 7rem 2rem;
+}
+.site-main .skills-area .skills-title {
+  padding: 0 14rem;
+}
+.site-main .skills-area .skills-title h1 {
+  font-size: 35px;
+}
+.site-main > .skills-area .mySkill {
+  background: rgba(253, 254, 255, 0.685);
+  padding: 2rem 0;
+  width: 10rem;
+  margin: 5rem 0.5rem;
+  transition: box-shadow 0.7s ease;
+}
+.site-main > .skills-area .mySkill:hover {
+  box-shadow: var(--box-shadow);
+}
+
+/* END SKILLS AREA */
+
+/* START PROJECT AREA */
+
+.site-main .project-area {
+  padding: 4rem 0;
+}
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--nova-font);
+  text-transform: uppercase;
+}
+.site-main .project-area .button-group button + button {
+  padding-left: 3rem;
+}
+.site-main .project-area .grid .my-project > .title h4 {
+  font: normal 700 25px/12px var(--nova-font);
+}
+.site-main .project-area .grid .my-project .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #f5f5f5);
+}
+.site-main .project-area .grid .my-project > title a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.site-main .project-area .button-group button:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* END PROJECT AREA */
+
+/* START CONTACT AREA */
+.site-main .contact-area .contact {
+  background: url("../img/bg-contact.jpg") no-repeat;
+  padding: 10rem 0;
+  margin: 3rem auto;
+}
+
+.site-main .contact-area .contact .contact-title h4 {
+  font: normal 700 40px/40px var(--nova-font);
+  color: whitesmoke;
+}
+.site-main .contact-area .contact .contact-title p {
+  color: whitesmoke;
+  padding: 1rem 4rem;
+}
+
+.site-main .contact-area .contact form .input-textbox input {
+  width: 400px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 5%;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: white;
+  font: normal 500 17px/20px var(--nova-font);
+}
+.site-main .contact-area .contact form .input-textbox input::placeholder {
+  color: whitesmoke;
+}
+
+/* END CONTACT AREA */
+
+/* START FOOTER AREA */
+
+footer.footer-area {
+  padding: 5rem 0;
+  color: whitesmoke;
+  background-color: black;
+}
+footer.footer-area.social h5 {
+  font: normal 700 28px/30px var(--nova-font);
+  color: whitesmoke;
+}
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--primary-color);
+}
+footer.footer-area .social a:hover > i {
+  color: whitesmoke;
+}
+
+/* END FOOTER AREA */

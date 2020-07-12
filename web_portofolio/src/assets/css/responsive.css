@@ -1,0 +1,58 @@
+/* if the viewport is equal to 340px or less */
+
+@media only screen and (max-width: 340px) {
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main .contact-area .contact .contact-title,
+  .site-main .contact-area .contact .contact-title p,
+  h4,
+  .site-main .contact-area .contact {
+    padding: 3%;
+    margin: 0;
+  }
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+  .site-main .contact-area .contact form .input-textbox input {
+    width: 15rem !important;
+  }
+  .site-main > .skills-area .mySkill {
+    width: 13rem;
+  }
+}
+@media only screen and (max-width: 792px) {
+  .site-main .about-area .about-title h2 > span {
+    font-size: 31px;
+    letter-spacing: 10px;
+  }
+
+  .site-main .project-area .button-group button {
+    font: normal 500 14px/30px var(--nova-font);
+    padding: 3% 4%;
+    width: 2rem;
+  }
+  .site-main .about-area .about-title p {
+    padding: 0%;
+  }
+  .site-main .contact-area .contact form .input-textbox input {
+    width: 18rem;
+    margin: 5%;
+  }
+  .site-main .contact-area .contact form .button-group button {
+    width: 18rem;
+    margin: 5%;
+  }
+}
+@media only screen and (max-width: 1910px) {
+  .header_area .main-menu .navbar {
+    padding: 1rem;
+  }
+  .container {
+    max-width: 90%;
+  }
+
+  .site-main .skills-area .skills-title,
+  .site-main .about-area {
+    padding: 3% 4%;
+  }
+}
