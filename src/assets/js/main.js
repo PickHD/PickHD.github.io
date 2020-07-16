@@ -10,11 +10,16 @@ import "../../assets/css/responsive.css";
 
 JQueryBridget("isotope", Isotope, $);
 
+$(window).on("load", function () {
+  $(".loader-wrapper").fadeOut("slow");
+});
+
 AOS.init();
-$(document).ready(function () {
+
+$(document).ready(() => {
   let Sbutton = $(".project-area .button-group button");
 
-  Sbutton.click(function (e) {
+  Sbutton.click((e) => {
     $(".project-area .button-group button").removeClass("active");
 
     e.target.classList.add("active");
