@@ -9,7 +9,7 @@
 }
 
 .header_area .main-menu .navbar {
-  padding: 1rem 20rem;
+  padding: 2rem 10rem;
 }
 .header_area .main-menu .nav-item .nav-link {
   font: normal 500 15px/2px var(--nova-font);
@@ -54,7 +54,7 @@
 
 /* START ABOUT AREA */
 .site-main .about-area {
-  padding: 8rem 5rem;
+  padding: 10rem 10rem;
 }
 .site-main .about-area .about-title h2 > span {
   padding-top: 10%;
@@ -73,16 +73,15 @@
   padding: 7rem 2rem;
 }
 .site-main .skills-area .skills-title {
-  padding: 0 14rem;
+  padding: 0 10rem;
 }
 .site-main .skills-area .skills-title h1 {
-  font-size: 35px;
+  font-size: 20px;
 }
 .site-main > .skills-area .mySkill {
   background: rgba(253, 254, 255, 0.685);
   padding: 2rem 0;
   width: 10rem;
-  margin: 5rem 0.5rem;
   transition: box-shadow 0.7s ease;
 }
 .site-main > .skills-area .mySkill:hover {
@@ -94,7 +93,7 @@
 /* START PROJECT AREA */
 
 .site-main .project-area {
-  padding: 4rem 0;
+  padding: 6rem 0;
 }
 .site-main .project-area .button-group button {
   background: transparent;
