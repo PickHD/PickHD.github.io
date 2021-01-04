@@ -81,7 +81,7 @@
 .site-main > .skills-area .mySkill {
   background: rgba(253, 254, 255, 0.685);
   padding: 2rem 0;
-  width: 10rem;
+  width: 80%;
   transition: box-shadow 0.7s ease;
 }
 .site-main > .skills-area .mySkill:hover {
