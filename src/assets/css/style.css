@@ -70,17 +70,19 @@
 /* START SKILLS AREA */
 
 .site-main .skills-area {
+  display: flex;
+  justify-items: center;
   padding: 7rem 2rem;
 }
 .site-main .skills-area .skills-title {
-  padding: 0 10rem;
+  padding: 0 20rem;
 }
 .site-main .skills-area .skills-title h1 {
   font-size: 20px;
 }
 .site-main > .skills-area .mySkill {
+  flex: 1;
   background: rgba(253, 254, 255, 0.685);
-  padding: 2rem 0;
   width: 80%;
   transition: box-shadow 0.7s ease;
 }
